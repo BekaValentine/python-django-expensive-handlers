@@ -1,1 +1,1 @@
-# python-django-expensive-handlers
+A project to test the expensive handlers library.
