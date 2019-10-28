@@ -1,6 +1,6 @@
 from django.db import models
 
-'''
+
 class MyModel(models.Model):
   pass
 
@@ -24,4 +24,3 @@ def expensive_handler_create_indirect():
 
 def helper():
   MyModel.objects.create()
-'''
