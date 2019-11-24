@@ -1,4 +1,5 @@
 from django.db import models
+from django.conf.urls import url
 
 
 class MyModel(models.Model):
@@ -24,3 +25,9 @@ def expensive_handler_create_indirect():
 
 def helper():
   MyModel.objects.create()
+
+patterns = [
+  url("cheap_handler", cheap_handler),
+  url("expensive_handler_save", expensive_handler_save),
+  path("expensive_handler_update", expensive_handler_update)
+]
