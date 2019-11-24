@@ -1,5 +1,5 @@
 from django.db import models
-from django.conf.urls import url
+from django.conf.urls import url, path
 
 
 class MyModel(models.Model):
