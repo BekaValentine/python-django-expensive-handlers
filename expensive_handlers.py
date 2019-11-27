@@ -29,5 +29,5 @@ def helper():
 patterns = [
   url("cheap_handler", cheap_handler),
   url("expensive_handler_save", expensive_handler_save),
-  path("expensive_handler_update", expensive_handler_update)
+  path("expensive_handler_delete", expensive_handler_delete)
 ]
